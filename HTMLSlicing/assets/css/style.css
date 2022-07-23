@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Poppins:wght@400;700&family=Ubuntu&display=swap');
+
+:root{
+    --main-color : #F5F5F5;
+
+    --main-font : 'Noto Sans', sans-serif;
+    --second-font : 'Poppins', sans-serif;
+    --footer-font : 'Ubuntu', sans-serif;
+}
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: none;
+    font-family: var(--main-font);
+}
+
+.wrapper{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: 700;
+    float: left;
+    font-family: var(--main-font);
+    color: #ffffff;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: relative;
+    top: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+
+}
+
+nav ul li a{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 40px 0px 40px;
+}
+
+.banner{
+    height: 670px;
+    background:  url("../img/bg.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.content-banner{
+    text-align: left;
+    margin-left: 118px;
+    margin-right: 437px;
+    margin-top: 112px;
+    margin-bottom: 89px;
+}
+
+.title-banner{
+    font-family: var(--main-font);
+    width: 1000px;
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: 112px;
+    font-weight: 700;
+}
+
+.desc-banner{
+    font-family: var(--main-font);
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 15px;
+    font-weight: 400;
+    width: 1000px;
+}
+
+.btn-banner{
+    margin-top: 89px;
+    padding: 10px;
+    width: 254px;
+    height: 62px;
+}
+
+.sponsor img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 17px;
+}
+
+.text-btn-banner{
+    padding: 60px 18px 60px 18px;
+}
+
+.text-before-card{
+    font-family: var(--main-font);
+    margin-left: 275px;
+    margin-right: 275px;
+    margin-top: 96px;
+    margin-bottom: 80px;
+}
+
+.header{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.paragraph{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.card-group{
+    font-family: var(--main-font);
+}
+
+
+
+.card-title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 26px;
+    margin-bottom: 24px;
+}
+
+.card-text{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.chart{
+    width: 120px;
+    height: 120px;
+}
+
+.wheel{
+    width: 120px;
+    height: 120px;
+}
+
+.key{
+    width: 120px;
+    height: 120px;
+}
+
+.container-gradien{
+    width: 100%;
+    background: linear-gradient(270deg, #E8E9F8 0%, rgba(232, 233, 248, 0) 72.29%);
+   
+}
+
+.img-short{
+    width: 480px;
+    height: 308px;
+}
+
+.text-short{
+    width: 558px;
+    height: 270px;
+}
+
+.container-gradien-text-header{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.container-gradien-text-sub{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.scene{
+    width: 1282px;
+    height: 1359px;
+    margin-left: 114px;
+    margin-right: 116px;
+    margin-top: 96px;
+}
+
+.content-scene{
+    margin-top: 100px;
+    font-family: var(--main-font);
+}
+
+.text-content-header{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.text-content-sub{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.learning{
+    background-color: #2D338E;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.apk-download{
+    background-color: #EAEEF9;
+}
+
+.apk-download-content{
+    margin-top: 220px;
+}
+
+.apk-download-text-header{
+    font-size: 36px;
+    font-weight: 700;
+}
+.apk-download-text-sub{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.faq{
+    margin-top: 96px;
+}
+
+.dropdown-toggle{
+    width: 100%;
+    text-align: left;
+    background-color: #F7F7F7;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+.dropdown-menu{
+    width: 100%;
+    padding-left: 12px;
+}
+
+footer{
+    background-color: #EAEEF9;
+    height: 368px;
+    margin-top: 128px;
+}
+
+ footer a{
+    text-decoration: none;
+    color: #000000;
+ }
+
+.temantani-foot{
+    font-size: 36px;
+    font-family: var(--second-font);
+    font-weight: 700;
+    background: linear-gradient(90deg, #000000 0%, #2D338E 77.08%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+.text-teman{
+    font-family: var(--second-font);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.text-teman-sub{
+    font-family: var(--second-font);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.head-company{
+    font-size: 18px;
+    font-family: var(--second-font);
+    font-weight: 700;
+}
+
+.text-company{
+    font-size: 15px;
+    font-family: var(--second-font);
+    font-weight: 400;
+}
