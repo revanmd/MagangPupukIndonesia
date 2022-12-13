@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Ubuntu";
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav ul li a:hover{
+    color: #166832;
+    font-weight: 700;
+}
+
+
+
+.Banner h1, .More h1{
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(92.46deg, #166832 6.59%, #000000 87.85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+
+.Banner p, .More p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #828282;
+}
+
+.Banner img{
+    width: 90%;
+}
+
+.btn{
+    background-color: #166832;
+    color: #ffff;
+}
+
+.sponsor-box{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 34px 6px rgba(0, 0, 0, 0.13);
+    border-radius: 20px;
+}
+
+.card{
+    box-shadow: 0px 1px 14px 8px rgba(0, 0, 0, 0.09);
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.card h4{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 32px;
+}
+
+.card p{
+    color: #828282;
+}
+.card:hover{
+    background: #F2FFF7;
+    color: #166832;
+}
+
+.work p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #166832;
+}
+
+.work h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+
+footer{
+    background: #525252;
+}
+
+.footer-banner{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.contentfut{
+    color: #FFFFFF;
+    font-family: 'Noto Sans', sans-serif;
+}
+.copyright{
+    background: #166832;
+    color: #FFFFFF;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 400;
+}
